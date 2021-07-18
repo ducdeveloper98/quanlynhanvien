@@ -1,0 +1,41 @@
+input {
+    padding: 10px 16px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+
+input::placeholder {
+    font-size: 11px;
+}
+
+.icon-search {
+    background-image: url('../../assets/img/search.png');
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    padding-left: 40px;
+}
+.m-input-type{
+    display: flex;
+    justify-content: space-between;
+}
+.label-1{
+ margin-bottom:3px;
+ margin-left:2px;
+}
+.txt-code{
+    margin-top:16px;
+    flex :1;
+}
+.input-type{
+    width: 82%;
+}
+.input-date{
+    height:24%;
+}
+input:focus{
+    border: 1px solid	#019160 ;
+}
+.input-salary{
+    text-align: right;
+}

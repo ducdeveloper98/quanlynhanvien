@@ -1,0 +1,60 @@
+{
+  "name": "misa-vuejs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "actioncable-vue": "^2.4.6",
+    "autonumeric": "^4.6.0",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "devextreme": "21.1.4",
+    "devextreme-vue": "21.1.4",
+    "flatpickr": "^4.6.9",
+    "moment": "^2.29.1",
+    "mosha-vue-toastify": "^1.0.13",
+    "vue": "^3.0.0",
+    "vue-flatpickr-component": "^9.0.3",
+    "vue-router": "^4.0.9",
+    "vue-simple-search-dropdown": "^1.0.1",
+    "vue-sweetalert2": "^4.3.1",
+    "vue-toasted": "^1.1.28",
+    "vue2-datepicker": "^3.9.1",
+    "vuejs-datepicker": "^1.6.2",
+    "vuelidate": "^0.7.6",
+    "vuetify": "^2.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

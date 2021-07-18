@@ -1,0 +1,73 @@
+/* navbar css */
+
+.navbar {
+    width: 220px;
+    height: calc(100vh - 66px);
+    background-color: #ffffff;
+    border-right: 1px solid #e5e5e5;
+}
+
+.navbar .navbar-content {
+    width: 100%;
+    height: 60px;
+}
+
+
+/*
+  content bottom menu
+*/
+
+.navbar .navbar-content .nav-item {
+    display: flex;
+    padding-left: 20px;
+    height: 44px;
+    cursor: pointer;
+    line-height: 44px;
+    /* border-right:1px solid #e5e5e5; */
+}
+
+
+.navbar .navbar-content .nav-item:hover {
+    background-color: #e5e5e5;
+    color: #000000;
+}
+
+.nav-item .nav-item-icon {
+    width: 24px;
+    height: 24px;
+    align-self: center;
+    margin-right: 14px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* action mouse for each icon */
+
+.navbar .logo-site .logo-box .toggle-icon:hover {
+    cursor: pointer;
+}
+
+.nav-item-icon-1 {
+    background-image: url("../../assets/img/dashboard.png");
+}
+
+.nav-item-icon-2 {
+    background-image: url("../../assets/img/report.png");
+}
+
+.nav-item-icon-4 {
+    background-image: url("../../assets/img/dic-employee.png");
+}
+
+.nav-item-icon-3 {
+    background-image: url("../../assets/img/document-online.png");
+}
+
+.nav-item-icon-5 {
+    background-image: url("../../assets/img/setting.png");
+}
+
+.nav-item-icon-6 {
+    background-image: url("../../assets/img/people.png");
+}

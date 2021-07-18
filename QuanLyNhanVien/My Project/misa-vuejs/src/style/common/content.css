@@ -1,0 +1,243 @@
+.content {
+    position: absolute;
+    top: 61px;
+    left: 221px;
+    width: calc(100% - 237px);
+    height: calc(100vh - 125px);
+    background-color: #ffff;
+}
+
+
+/* content title */
+
+.content .content-header {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    /* justify-content: space-around; */
+}
+
+.content .content-header .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .content-header .page-feature {
+    position: absolute;
+    display: flex;
+    right: 1px;
+}
+
+.content .content-header .page-feature .icon-add {
+    width: 16px;
+    height: 16px;
+    background-image: url('../../assets/img/add.png');
+    background-repeat: no-repeat;
+}
+
+.icon-footer-1 {
+    margin-left: 5px;
+    margin-right: 12px;
+}
+
+
+/* filter bar */
+
+.filter-all {
+    display: inline-flex;
+}
+
+.table-content {
+    margin-left: 16px;
+    height: calc(100vh - 235px);
+    background-color: #ffffff;
+    margin-top: 5px;
+    overflow-x: scroll;
+}
+
+
+/* .content-tb{
+        overflow-x: scroll;
+    } */
+
+.misa-btn-1 {
+    background-color: #019160;
+    border-radius: 2px;
+    width: 80px;
+    height: 35px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: GoogleSans-Regular;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.misa-btn-1:hover {
+    background-color: #2FBE8E;
+}
+
+
+/* #btn-cancel {
+        width: 80px;
+        height: 35px;
+    } */
+
+.btnSave {
+    margin-right: 38px;
+}
+
+.btnXoa {
+    margin-left: 12px;
+}
+
+.btnCancel {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.btn-default-1 {
+    display: inline-flex;
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-family: GoogleSans-Regular;
+    background-color: #019160;
+    border-radius: 3px;
+}
+
+.btn-default-2 {
+    display: inline-flex;
+    width: 120px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-family: GoogleSans-Regular;
+    background-color: #fc0349;
+    border-radius: 4px;
+}
+
+.misa-btn .btn-text {
+    margin-left: 8px;
+}
+
+.btn-default-1:hover {
+    background-color: #2FBE8E;
+}
+
+.btn-default-2:hover {
+    background-color: #e60000;
+}
+
+input::placeholder {
+    font-size: 25px;
+    font-family: GoogleSans-Regular;
+    font-weight: 500;
+}
+
+.select-paging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-paging-1 {
+    background: #019160;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 12px;
+}
+
+.select-paging-2 {
+    background: #e5e5e5;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #e5e5e5;
+    margin-right: 12px;
+}
+
+.select-paging-2:hover {
+    background: #ffffff;
+}
+
+.select-paging-3 {
+    background: #e5e5e5;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #e5e5e5;
+    margin-right: 12px;
+}
+
+.select-paging-3:hover {
+    background: #ffffff;
+}
+
+.select-paging-4 {
+    background: #e5e5e5;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #e5e5e5;
+    margin-right: 19px;
+}
+
+.select-paging-4:hover {
+    background: #ffffff;
+}
+
+.paging-prv {
+    position: relative;
+    top: 10px;
+    left: 14px;
+}
+
+.m-input:focus {
+    border: 1px solid #019160;
+}
+
+.dialog-conflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-paging-1 {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.img-paging-1:hover {
+    border-radius: 4px;
+    align-self: center;
+    background-color: #e5e5e5;
+}
+
+.img-paging-2 {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.img-paging-2:hover {
+    border-radius: 4px;
+    align-self: center;
+    background-color: #e5e5e5;
+}

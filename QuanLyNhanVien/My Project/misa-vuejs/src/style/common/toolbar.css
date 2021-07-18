@@ -1,0 +1,17 @@
+.content-filter-bar {
+    width: calc(100% - 36px);
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 0 16px 0 16px;
+}
+
+.content-filter-bar .filter-right {
+    position: absolute;
+    right: 1px;
+    display: flex;
+}
+
+.content-filter-bar .filter-right .misa-btn-refresh:hover {
+    cursor: pointer;
+}

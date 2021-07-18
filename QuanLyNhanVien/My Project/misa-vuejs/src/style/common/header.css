@@ -1,0 +1,143 @@
+.top-header {
+    display: flex;
+    flex-flow: row;
+}
+
+.header {
+    width: calc(100% - 221px);
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-self: center;
+}
+
+.header .header-restaurant {
+    width: 50%;
+    display: flex;
+    align-self: center;
+}
+
+
+/*
+  restaurant
+*/
+
+.header-restaurant .header-restaurant-select {
+    padding: 0 10px 0 16px;
+}
+
+
+/*
+  custom action
+*/
+
+.header-restaurant .header-restaurant-icon {
+    width: 10px;
+    background-image: url('../../assets/img/expand-button.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* top right bottom left */
+
+.header .header-admin,
+.header .header-admin .header-admin-info-admin {
+    width: calc(50%);
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.header .header-admin .header-admin-info-admin {
+    padding-right: 23px;
+}
+
+
+/* set image for each icon*/
+
+.header .header-admin .header-admin-info-admin .header-admin-bell {
+    width: 16px;
+    margin-right: 16px;
+    background-image: url('../../assets/img/bell.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .header-admin .header-admin-info-admin .header-admin-avatar {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../assets/img/avatar-default.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header .header-admin .header-admin-info-admin .header-admin-fullname {
+    padding: 0 16px 0 16px;
+    margin: auto 0;
+}
+
+.header .header-admin .header-admin-info-admin .header-admin-option {
+    width: 16px;
+    background-image: url('../../assets/img/option.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/*
+  hover action for each icon
+*/
+
+.header .header-admin .header-admin-info-admin .header-admin-option:hover,
+.header .header-admin .header-admin-info-admin .header-admin-bell:hover {
+    cursor: pointer;
+}
+
+
+/*
+  logo main page
+*/
+
+.top-header .logo-site .logo-box .toggle-icon {
+    width: 30px;
+    height: 30px;
+    margin: 16px 12px 12px 10px;
+    background-image: url("../../assets/img/toggle.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.top-header .logo-site .logo-box .cukcuk-icon {
+    margin-top: 12px;
+    width: 100%;
+    height: 40px;
+    margin-right: 5px;
+    /* background-image: url("/MISA.AMIS.Web/content/img/cukcuk-logo.png"); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* custom main logo menu */
+
+.top-header .logo-site {
+    display: flex;
+    width: 220px;
+    height: 60px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.top-header .logo-box {
+    display: flex;
+    margin-left: 9px;
+    width: 100%;
+}
+
+.btn-text {
+    margin-left: 7px;
+}
