@@ -481,10 +481,10 @@ export default {
           debugger; // eslint-disable-line no-debugger
           axios
             .post("http://cukcuk.manhnv.net/v1/Employees", this.employeeX)
-            .then((res) => {
+            .catch((res) => {
               debugger; // eslint-disable-line no-debugger
+             
               this.focusInputfirst();
-              
               this.$swal({
                 title: "Thêm thành công",
                 text: "Đã thêm nhân viên có mã " + this.employeeX.EmployeeCode,
@@ -505,18 +505,19 @@ export default {
               }, 2000);
                this.loadData();
               console.log(res);
-            })
-            .catch((res) => {
-              this.$swal({
-                title: "Thêm thất bại",
-                text:
-                  "Hãy kiểm tra lại dữ liệu bản ghi có mã" +
-                  " " +
-                  this.employeeX.EmployeeCode,
-                icon: "error",
-              });
-              console.log(res);
             });
+            // .catch((res) => {
+            //   this.$swal({
+            //     title: "Thêm thất bại",
+            //     text:
+            //       "Hãy kiểm tra lại dữ liệu bản ghi có mã" +
+            //       " " +
+            //       this.employeeX.EmployeeCode,
+            //     icon: "error",
+            //   });
+            //   console.log(res);
+            // });
+             
         } else {
           debugger; // eslint-disable-line no-debugger
           // Sửa
@@ -555,6 +556,11 @@ export default {
             })
             .catch((res) => {
               debugger; // eslint-disable-line no-debugger
+                this.$swal({
+                title: "Sửa thất bại",
+                text: "Hãy xem lại dữ liệu nhân viên có mã " + this.employeeX.EmployeeCode,
+                icon: "success",
+              });
               console.log(res);
             });
         }
